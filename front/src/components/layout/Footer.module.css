@@ -1,0 +1,148 @@
+.footer {
+    padding: 20px 20px 0px 20px;
+    background-color: var(--cor2);
+    color: var(--cor5);
+    margin-top: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.row {
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.col {
+    max-width: 300px;
+    font-size: 1.1em;
+}
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    padding: 0px;
+}
+
+.social svg {
+    font-size: 1.1em;
+    color: var(--cor5);
+    margin: auto;
+}
+
+.social li {
+    padding-right: 10px;
+}
+
+.social a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor1);
+    border-radius: 100%;
+    text-align: center;
+    line-height:43px;
+}
+
+.social a:hover {
+    transition: 0.5s;
+    background-color: var(--cor3);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer ul a {
+    color: var(--cor5);
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul a:hover {
+    transition: 0.5s;
+    color: var(--cor4);
+}
+
+/*  Footer Copy  */
+.copy_right {
+    display: flex;
+    width: 350px;
+    margin: auto;
+}
+
+.titulo_destaque {
+    color: var(--cor4);
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.copy_right p {
+    align-self: center;
+}
+
+.copy_right a {
+    color: var(--cor5);
+}
+
+.copy_right a:hover {
+    color: var(--cor4);
+}
+
+@media only screen and (max-width: 860px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 460px){
+
+    .row {
+        padding: 0;
+    }
+
+    .footer .titulo {
+        font-size: 1.1em;
+    }
+
+    .social a {
+        width: 40px;
+        height: 40px;
+        line-height:35px;
+    }
+
+    .social svg {
+        font-size: 0.9em;
+    }
+
+    .footer p {
+        font-size: 0.9em;
+    }
+
+    .footer ul a {
+        font-size: 0.9em;
+    }
+
+    .copy_right {
+        max-width: 290px;
+        margin: 0;
+    }
+
+    .copy_right p {
+        font-size: 0.8em;
+    }
+    
+    .copy_right .titulo_destaque {
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    --cor0: #8DCBF2;
+    --cor1: #03658C;
+    --cor2: #024959;
+    --cor3: #FD7E03;
+    --cor4: #F45602;
+    --cor5: white;
+    --cor6: black;
+    --cor7: #efefef;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-satisfy: 'Satisfy', cursive;
+}
+
+html,
+body #root {
+    margin: auto;
+    max-width: 1520px;
+    background-color: var(--cor7);
+    height: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.349);
+}
+
+body {
+    font-family: var(--font-padrao);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

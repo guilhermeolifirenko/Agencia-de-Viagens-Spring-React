@@ -1,0 +1,25 @@
+.navbar {
+    max-width: 1440px;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.logo{
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--cor4);
+}
+
+.nav_link {
+    border-bottom: 2px solid var(--cor7);
+    transition: 0.5s ease;
+}
+
+.nav_link:hover {
+    border-bottom-color: var(--cor4);
+}
+
+.menu_toggle {
+    border: none;
+}

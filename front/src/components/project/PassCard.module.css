@@ -1,0 +1,56 @@
+.card {
+    border: solid 2px var(--cor2);
+    border-radius: 10px;
+    min-width: 250px;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    color: var(--cor2);
+    font-family: var(--font-bebas);
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.card_actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_actions a {
+    text-decoration: none;
+    color: var(--cor2);
+    transition: 0.5s;
+}
+
+.card_actions button {
+    color: var(--cor2);
+    padding: 3px 8px;
+    border: solid 2px var(--cor2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.card_actions button:hover {
+    color: var(--cor4);
+    border: solid 2px var(--cor4);
+}
+
+.card_actions button:hover svg,
+.card_actions button:hover a {
+    color: var(--cor4);
+}
+
+.card_actions svg {
+    color: var(--cor1);
+    margin-right: 5px;
+}

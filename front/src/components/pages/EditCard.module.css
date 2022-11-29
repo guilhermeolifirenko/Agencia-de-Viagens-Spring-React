@@ -1,0 +1,64 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.form_control input {
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+    min-height: 300px;
+}
+
+.container button {
+    height: 40px;
+    margin: 20px 20px 0 0;
+    border: solid 2px var(--cor2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: var(--cor2);
+    transition: 0.5s;
+}
+
+.container button a {
+    text-decoration: none;
+    color: var(--cor2);
+    transition: 0.5s;
+}
+
+.container button:hover a {
+    color: var(--cor4);
+}
+
+.container button:hover {
+    color: var(--cor4);
+    border: solid 2px var(--cor4);
+}
+
+.container h1 {
+    color: var(--cor4);
+    font-family: var(--font-bebas);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.463);
+    margin-bottom: 20px;
+}
+
+svg {
+    margin-right: 3px;
+}

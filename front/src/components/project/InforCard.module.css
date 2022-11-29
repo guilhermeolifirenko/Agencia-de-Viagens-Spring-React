@@ -1,0 +1,41 @@
+.servicos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.cards_design {
+    max-width: 350px;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    text-align: justify;
+}
+
+.servicos svg {
+    color: var(--cor4);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.servicos a {
+    color: var(--cor2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 380px) {
+    .cards_design {
+        width: 280px;
+    }
+}

@@ -1,0 +1,117 @@
+.row {
+    margin-top: 4em;
+}
+
+.container {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+.card_oferta {
+    width: 300px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.oferta0 {
+    background-image: url(../img/roma.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.oferta1 {
+    background-image: url(../img/santorini.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.oferta2 {
+    background-image: url(../img/cairo.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.oferta3 {
+    background-image: url(../img/fussen.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.oferta4 {
+    background-image: url(../img/melbourne.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.oferta5 {
+    background-image: url(../img/lombardia.jpg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.imagem {
+    border: 5px solid var(--cor5);
+    border-radius: 100%;
+    max-width: 110px;
+    max-height: 110px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content {
+    margin-top: 20px;
+    color: var(--cor5);
+    padding: 140px 0px 5px 0px
+}
+
+.content button {
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--cor5);
+    border: 1px solid var(--cor5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.content button:hover {
+    transition: 0.5s;
+    background-color: var(--cor5);
+    color: var(--cor4);
+}
+
+.card_oferta p {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+@media only screen and (max-width: 340px) {
+    .card_oferta {
+        width: 250px;
+    }
+
+    .oferta0 {
+        width: 250px;
+    }
+
+    .oferta1 {
+        width: 250px;
+    }
+    
+    .oferta2 {
+        width: 250px;
+    }
+
+    .oferta3 {
+        width: 250px;
+    }
+
+    .oferta4 {
+        width: 250px;
+    }
+}

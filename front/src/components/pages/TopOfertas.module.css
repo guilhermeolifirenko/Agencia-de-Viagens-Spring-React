@@ -1,0 +1,39 @@
+.titulo {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.titulo > p {
+    font-family: var(--font-satisfy);
+    font-size: 1.8em;
+    color: var(--cor4);
+    position: relative;
+    z-index: 9;
+}
+
+.titulo > p.sombra {
+    color: var(--cor6);
+    font-size: 120px;
+    opacity: 0.2;
+    margin-top: -170px;
+    z-index: 0;
+}
+
+.titulo > h1 {
+    font-family: var(--font-bebas);
+    font-size: 3em;
+    color: var(--cor2);
+}
+
+@media only screen and (max-width: 480px) {
+
+    .titulo > h1 {
+        font-size: 3em;
+        margin-bottom: 50px;
+    }
+
+    .titulo > p.sombra {
+        font-size: 4em;
+    }
+}
